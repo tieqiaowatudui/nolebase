@@ -14,11 +14,11 @@ hero:
     alt: Vitest
   actions:
     - theme: brand
-      text: 我的信息
-      link: /我的发布
-    - theme: brand
       text: 开始阅读
       link: /笔记/index
+    - theme: brand
+      text: 我的信息
+      link: /我的发布
     - theme: alt
       text: 加入 Discord 服务器
       link: https://discord.gg/XuNFDcDZGj
