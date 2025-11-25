@@ -2,7 +2,7 @@
 layout: home
 sidebar: false
 
-title: Nólëbase
+title: 你好吗.这个是一个测试的地方
 titleTemplate: 记录回忆，知识和畅想的地方
 
 hero:
