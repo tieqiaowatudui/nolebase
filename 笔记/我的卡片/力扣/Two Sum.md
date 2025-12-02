@@ -39,11 +39,10 @@ aliases: []
   - 两个下标如何生成list: `list((i,j))`
   - 如何生成空list:`list(())`
   - 如何对数组进行排序:`nums.sort()`
-  - 如何自定义数组排序的comparetor:`nums.sort(key lambda )`
-  - 内置函数：`zip`, `enumerate`, `sorted`, `heapq`
+  - 如何自定义数组排序的comparetor:`nums.sort(key= lambda i :nums[i])`
+  - 如何复制一个下标数组:`list(range(len(nums)))`
 - **数据结构**：
-  - `deque` 双端队列
-  - `set` 与 `dict` 的差异
+  
 - **常用方法**：
   - 切片 `nums[i:j]`
   - `lambda` + `sorted`/`heapq`
