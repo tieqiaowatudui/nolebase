@@ -79,4 +79,9 @@ B := $(A)
 这种情况就会死循环.
 
 # 变量中的函数
-我们在计算变量的时候,通过 $(fuction_name)
+我们在计算变量的时候,通过 `$(fuction_name argumens)`语法对变量值进行计算.
+
+## wildcard
+
+A = `$(wildcard src/*c)`
+这种语法是将src
