@@ -33,5 +33,11 @@ make run file=sort_quick
 ```
 
 在makefile中可以通过$(file)进行获取.
-```f'n
+```makefile
+run:
+	./build/$(file)
+
 ```
+
+# 依赖
+make工具中,管理了目标和资源以及目标之间的依赖关系.yi'lai
