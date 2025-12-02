@@ -30,7 +30,7 @@ aliases: []
 ### 思路2（优化/进阶）
 - 算法原理：对数组进行排序,然后让最高和最低两个数的和.如果比目标值小,就将左下标右移,如果比目标值大,那么就将右下标左移.如果相等就返回下标.由于需要返回下标,所以需要拷贝出一个下标数组idx,然后对idx数组排序,但是比较和交换的依据是nums[i].nums数组不变.idx排完序就是`nums[idx[i]]`升序排列的结果.
 - 时间复杂度：时间复杂度是排序的复杂度 O($log_2n$)
-- 空间复杂度：kong'jian
+- 空间复杂度：空间复杂度为 O(n)
 
 ---
 
@@ -73,8 +73,14 @@ aliases: []
 ---
 
 ## 6️⃣ 代码实现
+### 暴力解法
 ```python
 class Solution:
-    def function_name(self, params):
-        # TODO: 实现代码
-        pass
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        for i in range(len(nums)):
+            for j in range(i+1,len(nums)):
+                if nums[i] + nums[j] == target:
+                    return list((i,j))
+        return list(())
+    
+
