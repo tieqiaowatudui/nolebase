@@ -27,3 +27,11 @@ target:resource
 - `$^` → 所有依赖
 ## 命令行传递参数
 可以在命令行中传递参数,这样便于指令进行执行.
+例如:
+```shell
+make run file=sort_quick
+```
+
+在makefile中可以通过$(file)进行获取.
+```f'n
+```
