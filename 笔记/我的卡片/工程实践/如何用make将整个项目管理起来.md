@@ -10,4 +10,7 @@ target:resource
 
 这其中target是必须有的.而resource和command不适必须的,至少有一个.
 构建的核心逻辑就是:资源target依赖于resource,通过command实现依赖资源和target的转变.
-> command这里必须使用 `tab`.否则会报错.
+> command这里必须使用 `tab`.如果使用四个空格会报错.
+
+## 依赖
+一个target
