@@ -89,4 +89,4 @@ A = `$(wildcard src/*c)`
 A = src/main.c src/main1.c这两个.
 
 ## patsubst
-`A = $(patsubst src/*.c ,build/%, $(A))`这里的shi'xi
+`A = $(patsubst src/*.c ,build/%, $(A))`这里的实现是 用`src/*.c`去`$(A)`序列中获取到对应的%的值.这里就能够获取到文件名字.然后将文件名字设置到build/%中的%hao
