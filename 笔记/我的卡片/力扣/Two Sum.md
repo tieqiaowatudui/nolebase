@@ -40,7 +40,7 @@ aliases: []
   - 如何生成空list:`list(())`
   - 如何对数组进行排序:`nums.sort()`
   - 如何自定义数组排序的comparetor:`nums.sort(key= lambda i :nums[i])`
-  - 如何复制一个下标数组:`list(range(len(nums)))`
+  - 如何复制一个下标数组:`list(range(len(nums)))`   --> 将range对象转变为一个数组.
 - **数据结构**：
   
 - **常用方法**：
