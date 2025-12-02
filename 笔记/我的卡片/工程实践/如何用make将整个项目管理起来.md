@@ -8,5 +8,6 @@ target:resource
 	command
 ```
 
-这其中target是必须有的.而resource和comand不适必须的,至少有一个.
-构建的核心逻辑就是:资源target依赖于resource,通过commandji
+这其中target是必须有的.而resource和command不适必须的,至少有一个.
+构建的核心逻辑就是:资源target依赖于resource,通过command实现依赖资源和target的转变.
+> command这里必须使用 `tab`.否则会报错.
