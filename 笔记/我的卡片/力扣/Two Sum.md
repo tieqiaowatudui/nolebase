@@ -36,8 +36,9 @@ aliases: []
 
 ## 4️⃣ Python3 技巧点
 - **语法技巧**：
-  - 两个下标如何shegn'ch
-  - 例：字典操作 `dict.get(key, default)`
+  - 两个下标如何生成list: `list((i,j))`
+  - 如何生成空list:`list(())`
+  - 如何对数组进行排序
   - 内置函数：`zip`, `enumerate`, `sorted`, `heapq`
 - **数据结构**：
   - `deque` 双端队列
