@@ -39,7 +39,7 @@ aliases: []
   - 两个下标如何生成list: `list((i,j))`
   - 如何生成空list:`list(())`
   - 如何对数组进行排序:`nums.sort()`
-  - 如何自定义数组排序的comparetor:`nums.sort(key= lambda i :nums[i])` [python3的排序](https://chatgpt.com/c/692eaa70-c3a0-8333-8444-9312f38e34a8)
+  - 如何自定义数组排序的comparetor:`idx.sort(key= lambda i :nums[i])` [python3的排序](https://chatgpt.com/c/692eaa70-c3a0-8333-8444-9312f38e34a8) 这里lambda表达式中的`i`是数组``
   - 如何复制一个下标数组:`list(range(len(nums)))`   --> 将range对象转变为一个数组.
 - **数据结构**：
   
