@@ -52,25 +52,6 @@ aliases: []
 
 ## 5️⃣ 算法技巧点
 - **算法类别**：回溯 / 动态规划 / 贪心 / 二分 / DFS / BFS / 双指针
-- **常用模板**：
-  - 回溯模板：
-    ```python
-    def backtrack(path, choices):
-        if 满足条件:
-            res.append(path)
-            return
-        for choice in choices:
-            backtrack(path + [choice], choices - ...)
-    ```
-  - 动态规划模板：
-    ```python
-    dp = [0] * n
-    for i in range(n):
-        dp[i] = min/max/... dp[j] + ...
-    ```
-
----
-
 ## 6️⃣ 代码实现
 ### 暴力解法
 ```python
