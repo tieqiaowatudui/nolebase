@@ -12,5 +12,5 @@ target:resource
 构建的核心逻辑就是:资源target依赖于resource,通过command实现依赖资源和target的转变.
 > command这里必须使用 `tab`.如果使用四个空格会报错.
 
-## 依赖
-一个target
+# 目标(target)
+目标表示了整个
