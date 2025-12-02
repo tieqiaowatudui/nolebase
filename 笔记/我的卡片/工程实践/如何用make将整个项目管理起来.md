@@ -9,3 +9,4 @@ target:resource
 ```
 
 这其中target是必须有的.而resource和comand不适必须的,至少有一个.
+构建的核心逻辑就是:资源target依赖于resource,通过commandji
