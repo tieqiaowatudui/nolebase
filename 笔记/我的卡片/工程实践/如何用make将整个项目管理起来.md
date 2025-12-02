@@ -86,4 +86,7 @@ B := $(A)
 A = `$(wildcard src/*c)`
 这种语法是将src下所有的元素进行列出来以列表的形式展示出来.
 如果src目录下有main.c和main1.c两个文件. 那么
-A = src/main.c src/main1.c这liang'ge
+A = src/main.c src/main1.c这两个.
+
+## patsubst
+`A = $(patsubst src/*.c ,build/%, $(A))`这里的shi'xi
