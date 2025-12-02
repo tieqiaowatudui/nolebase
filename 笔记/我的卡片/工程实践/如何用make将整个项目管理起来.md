@@ -13,4 +13,4 @@ target:resource
 > command这里必须使用 `tab`.如果使用四个空格会报错.
 
 # 目标(target)
-目标表示了整个
+目标是make构建的结果,这个结果可以作为其他目标的资源
