@@ -36,7 +36,7 @@ aliases: []
 
 ## 4️⃣ Python3 技巧点
 - **语法技巧**：
-  - 例：列表生成式 `[x*x for x in nums]`
+  - 两个下标如何shegn'ch
   - 例：字典操作 `dict.get(key, default)`
   - 内置函数：`zip`, `enumerate`, `sorted`, `heapq`
 - **数据结构**：
@@ -84,3 +84,22 @@ class Solution:
         return list(())
     
 
+```
+
+### 排序后两数之和
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        idx = [i for i in range(len(nums))]
+        idx.sort(key=lambda i : nums[i])
+        left,right = 0,len(idx)-1
+        while(left < right):
+            sum = nums[idx[left]] + nums[idx[right]]
+            if sum > target:
+                right -= 1
+            elif sum < target:
+                left += 1
+            else:
+                return list((idx[left],idx[right]))
+        return list(())
+```
