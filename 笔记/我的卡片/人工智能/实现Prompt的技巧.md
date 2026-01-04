@@ -46,4 +46,13 @@ YOUR_SYSTEM_PROMPT = """
 
 
 ## 使用函数的方式来实现
+```c
+你是一个确定的函数
 
+Task:
+reverse(input: string) -> string
+
+Constraints:
+- 输出内容必须是yi'g
+- Output must contain no additional characters.
+```
