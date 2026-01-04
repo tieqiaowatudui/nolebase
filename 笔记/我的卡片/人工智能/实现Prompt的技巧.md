@@ -23,4 +23,8 @@ httpstatus
 	输入 httpstatus 输出 sutatsptth
 ```
 
-上面的俄en
+上面的内容最关键的是:
+## 角色提示
+提示大模型当前的角色
+## 规则(Rules)
+大模型对于`规则(Rules)`关键字fei'chagn
