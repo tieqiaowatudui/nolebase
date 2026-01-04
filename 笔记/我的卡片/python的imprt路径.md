@@ -46,7 +46,8 @@ ModuleNotFoundError: No module named 'llms'
 ```bash
 python week1/k_shot_prompting.py
 ```
-这种指令执行的时候,`sys.path[0]`指向了 `demo_project/week1/`目录下.那么python执行的会后,遇到了import的时候会在`sys.path[0]`目录开始往下查找,这个时候就无法找到dui'ying
+这种指令执行的时候,`sys.path[0]`指向了 `demo_project/week1/`目录下.那么python执行的会后,遇到了import的时候会在`sys.path[0]`目录开始往下查找,这个时候就无法找到对应的model了.
+对于这种情况.使用python -m w
 
 
 
