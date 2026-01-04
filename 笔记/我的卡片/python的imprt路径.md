@@ -35,5 +35,15 @@ python week1/k_shot_prompting.py
 ```
 结果就报错了:
 ```bash
+Traceback (most recent call last):
+  File "week1/k_shot_prompting.py", line 1, in <module>
+    from llms import chat
+ModuleNotFoundError: No module named 'llms'
 
 ```
+
+这里涉及到的情况是:
+```bash
+python week1/k_shot_prompting.py
+```
+这种指令执行的时候,`sys.path[0`
