@@ -54,8 +54,6 @@ python week1/k_shot_prompting.py
 ```bash
 python -m week1.k_shot_prompting
 ```
-
-
 时，Python 会将 **当前工作目录**（`demo_project/`）加入 `sys.path[0]`，并以包的方式加载模块。  
 此时，`llms` 和 `week1` 成为同一搜索根下的平级包，因此可以被正常 import。
 # 总结
