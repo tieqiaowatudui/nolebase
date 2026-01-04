@@ -42,6 +42,7 @@ ModuleNotFoundError: No module named 'llms'
 
 ```
 
+## 问题分析
 这里涉及到的情况是:
 ```bash
 python week1/k_shot_prompting.py
@@ -51,8 +52,11 @@ python week1/k_shot_prompting.py
 ```bash
 python -m week1.k_shot_prompting
 ```
-指令来执行,这样`system.path[0]`是
+指令来执行,这样`system.path[0]`是`demo_project`.那么就可以看到 `llms`这个model.
 
+
+## 总结
+这个问题的根本原因就是python执行开始sou's
 
 
 
