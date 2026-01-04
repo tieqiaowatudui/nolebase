@@ -20,6 +20,20 @@ def chat():
 
 ```
 
-### `week1/k_shot_prompting.py`
+ week1/k_shot_prompting.py
 
-`from llms import chat  chat()`
+```python
+from llms import chat
+
+chat()
+
+```
+
+在 **`demo_project/` 目录下**运行：
+```bash
+python week1/k_shot_prompting.py
+```
+结果就报错了:
+```bash
+
+```
