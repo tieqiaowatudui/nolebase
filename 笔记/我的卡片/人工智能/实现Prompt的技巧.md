@@ -10,4 +10,4 @@ httpstatus
 ```
 
 # 用户提示方式
-对于高等级的
+对于最低等级的 `google/gemma-2-2b-it`这种小模型,如果用一般的ti'shi'yu
