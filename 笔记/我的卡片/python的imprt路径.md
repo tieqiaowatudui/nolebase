@@ -56,7 +56,7 @@ python -m week1.k_shot_prompting
 
 
 ## 总结
-这个问题的根本原因就是python执行开始sou's
+这个问题的根本原因就是python执行开始搜索根目录路径的情况.python指向了`.py`文件对应的目录.而`python -m`指向了执行指令时当前的目录.
 
 
 
