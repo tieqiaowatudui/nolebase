@@ -53,6 +53,8 @@ Task:
 reverse(input: string) -> string
 
 Constraints:
-- 输出内容必须是yi'g
-- Output must contain no additional characters.
+- 输出必须是一个翻转后的字符串.
+- 输出必须不包括额外内容
 ```
+
+这里以声明一个函数来提示当前模型来实现.
