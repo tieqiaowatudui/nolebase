@@ -46,4 +46,4 @@ ModuleNotFoundError: No module named 'llms'
 ```bash
 python week1/k_shot_prompting.py
 ```
-这种指令执行的时候,`sys.path[0`
+这种指令执行的时候,`sys.path[0]`指向了 `demo_project/week1/`目录下.这个目录中
