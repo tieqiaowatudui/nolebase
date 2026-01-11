@@ -27,7 +27,7 @@ Path.home().joinpath("Documents", "concepts.json")
 这里是一个同样功能的写法.
 
 # 路径对象和文件对象的区别
-路径对象只表示
+路径对象是文件对象的工厂  + 描述者.
 
 
 # 参考
