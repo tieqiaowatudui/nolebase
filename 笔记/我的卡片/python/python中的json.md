@@ -8,4 +8,8 @@
 | `json.dumps(obj)`   | **写** | Python 对象        | JSON 格式的字符串              | 把 Python 数据转成 **JSON 字符串**   | 只产生字符串   |
 json可以存放在文件中,也可以写在字符串中.  
 其中load和dump表示对文件加载和写入.这里有一个必要前提是文件必须已经open且encode = utf-8    
-loadshe
+loads和dumps是对字符串的加载和写入.
+
+
+# 参考
+[[Alfred插件闪念捕捉实现]]

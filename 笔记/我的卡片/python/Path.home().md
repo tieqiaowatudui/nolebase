@@ -31,4 +31,4 @@ Path.home().joinpath("Documents", "concepts.json")
 
 
 # 参考
-[[闪念捕捉]]
+[[Alfred插件闪念捕捉实现]]
