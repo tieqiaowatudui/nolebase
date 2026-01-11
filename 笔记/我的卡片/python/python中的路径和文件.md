@@ -16,5 +16,5 @@ Path对象需要通过open 方法,才能获取到一个文件.
 path.open()      # 打开文件 → 返回 file object
 path.read_text() # 打开 + 读取 + 关闭（封装好的）
 path.write_text("hello")
-
 ```
+这样才是将一个路径抓帮奶奶为一个文件对象.同时向操作系统申请资源.
