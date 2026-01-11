@@ -6,4 +6,6 @@
 | `json.loads(s)`     | **读** | 字符串（str/bytes）   | Python 对象                | 把 JSON **字符串** 转成 Python 数据  | 一段字符串    |
 | `json.dump(obj, f)` | **写** | Python 对象 + 文件对象 | 无（直接写入文件）                | 把 Python 数据 **保存成 .json 文件** | 整个文件     |
 | `json.dumps(obj)`   | **写** | Python 对象        | JSON 格式的字符串              | 把 Python 数据转成 **JSON 字符串**   | 只产生字符串   |
-json可以存放在文件中,也可以写在字符串中.
+json可以存放在文件中,也可以写在字符串中.  
+其中load和dump表示对文件加载和写入.这里有一个必要前提是文件必须已经open且encode = utf-8    
+loadshe
