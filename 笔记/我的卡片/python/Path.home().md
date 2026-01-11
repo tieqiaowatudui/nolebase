@@ -28,4 +28,4 @@ Path.home().joinpath("Documents", "concepts.json")
 
 
 # 参考
-[[Alfred插件开发步骤_2025-03-28_18_29_44]]
+[[闪念]]
