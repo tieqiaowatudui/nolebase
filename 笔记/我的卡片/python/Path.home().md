@@ -20,5 +20,12 @@ Path.home() / "Documents" / "concepts.json"
 这里的 /是转移符号,是获取当前目录下的子目录路径.
 ## 其他写法
 ```python
-
+Path.home().joinpath("Documents", "concepts.json") 
 ```
+
+这里是一个同样功能的写法.
+
+
+
+# 参考
+[[Alfred插件开发步骤_2025-03-28_18_29_44]]
