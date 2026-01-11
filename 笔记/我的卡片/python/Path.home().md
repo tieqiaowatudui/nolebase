@@ -10,4 +10,8 @@ C:\Users\yourname
 ```
 
 
-# 当前系统下的
+# 设计思路
+通过抽象出一个Pat.home()方法,能够方便的适配底层不同的系统.提升代码的适应性.
+
+# 用法
+Path.home().joinpath()
