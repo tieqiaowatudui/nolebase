@@ -18,6 +18,7 @@ C:\Users\yourname
 Path.home() / "Documents" / "concepts.json"
 ```
 这里的 /是转移符号,是获取当前目录下的子目录路径.
+这里返回的是一个路径对象.
 ## 其他写法
 ```python
 Path.home().joinpath("Documents", "concepts.json") 
@@ -25,6 +26,8 @@ Path.home().joinpath("Documents", "concepts.json")
 
 这里是一个同样功能的写法.
 
+# 路径对象和文件对象的区别
+路径对象只表示
 
 
 # 参考
