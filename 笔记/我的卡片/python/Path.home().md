@@ -28,4 +28,4 @@ Path.home().joinpath("Documents", "concepts.json")
 
 
 # 参考
-[[闪念]]
+[[闪念捕捉]]
