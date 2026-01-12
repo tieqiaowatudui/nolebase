@@ -15,7 +15,9 @@ with lock:
 ```
 
 # 实现原理
-FileLock是在底层的数据结构中生成
+FileLock在不同平台中使用了os的特性.在linux下使用了fctl/filelock.  
+实现原理和通用的锁定
+
 
 
 
