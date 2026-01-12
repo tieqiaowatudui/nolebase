@@ -16,7 +16,11 @@ with lock:
 
 # 实现原理
 FileLock在不同平台中使用了os的特性.在linux下使用了fctl/filelock.  
-实现原理和通用的锁定
+实现原理和通用的锁类似.
+```txt
+进程试图获取锁
+如果锁空闲就获取锁,否则就被block在一个
+```
 
 
 
