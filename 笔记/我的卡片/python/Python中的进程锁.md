@@ -14,6 +14,9 @@ with lock:
         raise RuntimeError("Concept not found")
 ```
 
+# 实现原理
+FileLock是在底层的数据结构中生成
+
 
 
 # 参考
