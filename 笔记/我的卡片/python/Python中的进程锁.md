@@ -24,7 +24,8 @@ FileLock在不同平台中使用了os的特性.在linux下使用了fctl/filelock
 然后继续执行.
 ```
 
-锁的信息是绑定在文件的inode中的.和java
+锁的信息是绑定在文件的inode中的.和java中的锁存在对象头中.  
+python的锁是进程之间的锁,而不是线程之间的锁.进程内部的锁使用的是threading.lock
 
 
 
